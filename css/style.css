@@ -1,0 +1,80 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.header{
+    width: 100vw;
+    height: 95vh;
+    background-color: #00499C;
+    display: flex;
+    align-items: center;
+}
+
+.bigWord{
+    font-size: 155pt;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    padding: 20px;
+}
+
+#personal{
+    font-family: 'Montserrat', sans-serif;    
+    color: white;
+    padding: 20px 30px 20px 30px;
+    font-size: 14pt;
+    border: white;
+}
+
+
+.showcase{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.flexTest{
+    padding: 20px;
+    border: 1px solid violet;
+    flex-basis: auto;
+}
+
+.flexTestimg{
+    padding: 20px;
+    max-width: 400px;
+    flex-basis: auto;
+}
+
+.showHeading{
+    color: #00499C;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: 'Teko', sans-serif;
+}
+
+.showHiFi{
+    padding: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #00499C;
+    margin: 1em 0;
+    padding: 0;
+    width: 80vw;
+    justify-items: center;
+}
