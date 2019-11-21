@@ -1,54 +1,144 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    opacity: 1;
-    transition: 2s opacity;
 }
 
-body.fade-out {
-    opacity: 0;
-    transition: none;
+.navBar{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    width: 100vh;
 }
 
-.customNav{
-    background-color: #20539A !important;
+.nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 100, 155);
+    padding: 0 20px 0 20px;
 }
 
-.customCard{
-    width: 100%;
-    height: 100%;
-    background-color: #FF8119;
-    padding: 10px;
+.navPage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00499C;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+}
+
+#navLogo{
+    font-family: 'Teko', sans-serif;
+    font-size: 22pt;
+    color: #00499C;
+    padding: 0 10px 10px 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#navLogo:hover{
+    text-decoration: none;
+}
+
+.header{
+    width: 100vw;
+    height: 90vh;
+    background-color: #F79544;
+    display: flex;
+    align-items: center;
+}
+
+.bigWord{
+    font-size: 155pt;
     color: white;
-    height: 100%;
-    border: none;
-}
-
-.cardText{
+    font-family: 'Teko', sans-serif;
     padding: 20px;
-    margin-top: 30px;
 }
 
-.row{
-    margin: 40px 10px 40px 10px;
+a {
+    color: #F79544;
 }
 
-.btn{
-    background-color: #0099B3;
-    border: none;
+a:hover{
+    color: #00499C;
+    text-decoration: none;
 }
 
-.btn:hover{
-    background-color: rgb(3, 120, 141);
+#personal{
+    font-family: 'Montserrat', sans-serif;    
+    color: white;
+    padding: 20px 30px 20px 30px;
+    font-size: 12pt;
+    border: white;
 }
 
-.pics{
+
+.showcase{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30vw;
+    grid-template-areas: 
+    "pic txt txt";
+    align-items: center;
+}
+
+.gridImg{
+    display: grid;
+    grid-area: pic;
+}
+
+.gridText{
+    padding-left: 20px;
+    display: grid;
+    grid-area: txt;
+}
+
+.showcase2{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30vw;
+    grid-template-areas: 
+    "txt2 txt2 pic2";
+    align-items: center;
+}
+
+.gridImg2{
+    display: grid;
+    grid-area: pic2;
+}
+
+.gridText2{
+    padding-left: 20px;
+    display: grid;
+    grid-area: txt2;
+}
+
+.showHeading{
+    color: #F79544;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: 'Teko', sans-serif;
+}
+
+.showHiFi{
+    text-align: center;
+    max-width: 500px;
+    max-height: 300px;
     object-fit: cover;
-    height: 280px;
-    width: 100%;
-    object-position: 0 29%;
-    border: none;
 }
 
-.fade {
-    opacity: 100%;
-  }
+hr {
+    display: flex;
+    justify-items: flex-start;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #F79544;
+    margin: 1em 0;
+    padding: 0;
+    width: 80vw;
+}
+
+#move {
+    display: flex;
+    justify-content: flex-end;
+}
