@@ -41,20 +41,20 @@ body {
 .header{
     width: 100vw;
     height: 90vh;
-    background-color: #F79544;
+    background-color: #043964;
     display: flex;
     align-items: center;
 }
 
 .bigWord{
-    font-size: 155pt;
+    font-size: 55pt;
     color: white;
     font-family: 'Teko', sans-serif;
     padding: 20px;
 }
 
 a {
-    color: #F79544;
+    color: #043964;
 }
 
 a:hover{
@@ -114,7 +114,7 @@ a:hover{
 }
 
 .showHeading{
-    color: #F79544;
+    color: #043964;
     font-weight: bold;
     font-size: 22pt;
     font-family: 'Teko', sans-serif;
@@ -132,7 +132,7 @@ hr {
     justify-items: flex-start;
     height: 1px;
     border: 0;
-    border-top: 2px solid #F79544;
+    border-top: 2px solid #043964;
     margin: 1em 0;
     padding: 0;
     width: 80vw;

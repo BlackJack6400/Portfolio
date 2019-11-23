@@ -20,7 +20,7 @@ body {
 
 .navPage{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #00499C;
+    color: #0A559D;
     padding: 0 20px 0 20px;
     font-weight: bold;
 }
@@ -28,7 +28,7 @@ body {
 #navLogo{
     font-family: 'Teko', sans-serif;
     font-size: 22pt;
-    color: #00499C;
+    color: #0A559D;
     padding: 0 10px 10px 10px;
     margin-left: 10px;
     font-weight: bold;
@@ -41,24 +41,24 @@ body {
 .header{
     width: 100vw;
     height: 90vh;
-    background-color: #F79544;
+    background-color: #0A559D;
     display: flex;
     align-items: center;
 }
 
 .bigWord{
-    font-size: 155pt;
+    font-size: 55pt;
     color: white;
     font-family: 'Teko', sans-serif;
     padding: 20px;
 }
 
 a {
-    color: #F79544;
+    color: #0A559D;
 }
 
 a:hover{
-    color: #00499C;
+    color: #0A559D;
     text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ a:hover{
 }
 
 .showHeading{
-    color: #F79544;
+    color: #0A559D;
     font-weight: bold;
     font-size: 22pt;
     font-family: 'Teko', sans-serif;
@@ -132,7 +132,7 @@ hr {
     justify-items: flex-start;
     height: 1px;
     border: 0;
-    border-top: 2px solid #F79544;
+    border-top: 2px solid #0A559D;
     margin: 1em 0;
     padding: 0;
     width: 80vw;

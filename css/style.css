@@ -10,6 +10,7 @@ body.fade-out {
 }
 
 .header{
+    /*margin-top: 2.5vh;*/
     width: 100vw;
     height: 95vh;
     background-color: #00499C;
