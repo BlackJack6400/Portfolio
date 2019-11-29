@@ -14,13 +14,13 @@ body {
 
 .nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(51, 100, 155);
+    color: #00499C;
     padding: 0 20px 0 20px;
 }
 
 .navPage{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #00499C;
+    color: rgb(0, 52, 112);
     padding: 0 20px 0 20px;
     font-weight: bold;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .header{
-    width: 100vw;
+    width: auto;
     height: 90vh;
     background-color: #043964;
     display: flex;
@@ -58,7 +58,7 @@ a {
 }
 
 a:hover{
-    color: #00499C;
+    color: rgb(0, 52, 112);
     text-decoration: none;
 }
 
@@ -141,4 +141,25 @@ hr {
 #move {
     display: flex;
     justify-content: flex-end;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer a:hover{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
 }
