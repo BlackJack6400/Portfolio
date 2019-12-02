@@ -17,28 +17,46 @@
     <a class="nav" href="../NAMI/nami.html">NAMI OC</a>
     <a class="nav" href="../MappyHour/index.html">Mappy Hour</a>
     <a class="nav" href="../Gov_Security/dhsGov.html">Government Redesign</a>
-    <a class="navPage" href="#">Contact Me</a>
+    <!-- <a class="navPage" href="#">Contact Me</a> -->
 </nav>
 
 <body>
 
     <div class="container">
-        <form action="action_page.php">
+        <form method="POST" action="send_mail.php">
 
             <label for="fname">Name</label>
-            <input type="text" id="fname" name="name" placeholder="Your Name">
+            <input type="text" id="fname" name="name" placeholder="Your Name" required>
 
             <label for="lname">Email Address</label>
-            <input type="text" id="lname" name="email" placeholder="Email">
+            <input type="text" id="lname" name="email" placeholder="Email" required>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
+            <label for="subject">Message</label>
+            <textarea id="subject" name="message" maxlength="1500" placeholder="Your message..." style="height:200px" required></textarea>
 
             <input type="submit" value="Send">
         </form>
     </div>
 
-    
+   <!-- <h1>Contact Me</h1>
+    <form method="post" action="send_mail.php">
+    <p>
+    <label>Name
+    <input type="text" name="name" required>
+    </label> 
+    </p>
+    <p>
+    <label>Email 
+    <input type="email" name="email">
+    </label>
+    </p>
+    <p>
+    <label>Message
+    <textarea name="message" maxlength="5000"></textarea>
+    </label>
+    </p>
+    <p><button>Send</button></p>
+    </form> -->
 
     <footer id="footer">
         <div><a href="#">Contact Me</a></div>
