@@ -7,28 +7,37 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    background-color: white;
+    background-color: #00499C;
     height: 10vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 .nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #00499C;
+    color: white;
     padding: 0 20px 0 20px;
+}
+
+.nav:hover{
+    color: white;
+    text-decoration-line: underline;
 }
 
 .navPage{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(0, 52, 112);
+    color: white;
     padding: 0 20px 0 20px;
     font-weight: bold;
+}
+
+.navPage:hover{
+    color: white;
 }
 
 #navLogo{
     font-family: 'Teko', sans-serif;
     font-size: 22pt;
-    color: #00499C;
+    color: white;
     padding: 0 10px 10px 10px;
     margin-left: 10px;
     font-weight: bold;
@@ -40,17 +49,23 @@ body {
 
 .header{
     width: auto;
-    height: 90vh;
+    height: 60vh;
     background-color: #0A559D;
-    display: flex;
-    align-items: center;
+   /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "word word word"
+    "pers pers pic"; */
 }
 
 .bigWord{
     font-size: 55pt;
     color: white;
     font-family: 'Teko', sans-serif;
-    padding: 20px;
+    padding: 50px 30px 0px 30px;
+    display: grid;
+    grid-area: word;
 }
 
 a {
@@ -65,14 +80,16 @@ a:hover{
 #personal{
     font-family: 'Montserrat', sans-serif;    
     color: white;
-    padding: 20px 30px 20px 30px;
+    padding: 0px 30px 0px 30px;
     font-size: 12pt;
     border: white;
+    display: grid;
+    grid-area: pers;
 }
 
 
 .showcase{
-    margin: 30px;
+    margin: 10px 50px 10px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30vw;
@@ -93,7 +110,7 @@ a:hover{
 }
 
 .showcase2{
-    margin: 30px;
+    margin: 10px 50px 10px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30vw;
