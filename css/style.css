@@ -94,6 +94,7 @@ a:hover{
 .showHiFi{
     text-align: center;
     max-width: 500px;
+    width: 30vw;
 }
 
 hr {

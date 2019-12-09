@@ -49,7 +49,7 @@ body {
 .header{
     width: auto;
     height: 40vh;
-    background-color: #043964;
+    background-color: #49654E;
    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -131,7 +131,7 @@ a:hover{
 }
 
 .showHeading{
-    color: #043964;
+    color: #49654E;
     font-weight: bold;
     font-size: 22pt;
     font-family: 'Teko', sans-serif;
@@ -149,7 +149,7 @@ hr {
     justify-items: flex-start;
     height: 1px;
     border: 0;
-    border-top: 2px solid #043964;
+    border-top: 2px solid #49654E;
     margin: 1em 0;
     padding: 0;
     width: 80vw;

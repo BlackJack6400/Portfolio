@@ -1,0 +1,182 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navBar{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #00499C;
+    height: 10vh;
+    width: auto;
+}
+
+.nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+.nav:hover{
+    color: white;
+}
+
+.navPage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+}
+
+.navPage:hover{
+    color: white;
+}
+
+#navLogo{
+    font-family: 'Teko', sans-serif;
+    font-size: 22pt;
+    color: white;
+    padding: 0 10px 10px 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#navLogo:hover{
+    text-decoration: none;
+}
+
+.header{
+    width: auto;
+    height: 60vh;
+    background-color: #49654E;
+   /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "word word word"
+    "pers pers pic"; */
+}
+
+.bigWord{
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 50vw;
+    padding: 0px 30px 0px 30px;
+    display: grid;
+    grid-area: word;
+}
+
+a {
+    color: #0A559D;
+}
+
+a:hover{
+    color: rgb(0, 52, 112);
+    text-decoration: none;
+}
+
+#personal{
+    font-family: 'Montserrat', sans-serif;    
+    color: white;
+    padding: 0px 30px 0px 30px;
+    font-size: 17pt;
+    border: white;
+    display: grid;
+    grid-area: pers;
+}
+
+.showcase{
+    margin: 0px 50px 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40vw;
+    grid-template-areas: 
+    "pic txt txt";
+    align-items: center;
+}
+
+.gridImg{
+    display: grid;
+    grid-area: pic;
+}
+
+.gridText{
+    padding-left: 20px;
+    display: grid;
+    grid-area: txt;
+}
+
+.showcase2{
+    margin: 10px 50px 10px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40vw;
+    grid-template-areas: 
+    "txt2 txt2 pic2";
+    align-items: center;
+}
+
+.gridImg2{
+    display: grid;
+    grid-area: pic2;
+}
+
+.gridText2{
+    padding-left: 20px;
+    display: grid;
+    grid-area: txt2;
+}
+
+.showHeading{
+    color: #49654E;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: 'Teko', sans-serif;
+}
+
+.showHiFi{
+    text-align: center;
+    max-width: 500px;
+    max-height: 75vh;
+    width: 27vw;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+
+hr {
+    display: flex;
+    justify-items: flex-start;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #49654E;
+    margin: 1em 0;
+    padding: 0;
+    width: 80vw;
+}
+
+#move {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer a:hover{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}

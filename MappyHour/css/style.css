@@ -9,7 +9,7 @@ body {
     align-items: center;
     background-color: #00499C;
     height: 10vh;
-    width: 100vw;
+    width: auto;
 }
 
 .nav{
@@ -55,11 +55,11 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "word word word"
-    "pers pers pic";
+    "pers pers pers";
 }
 
 .bigWord{
-    font-size: 55pt;
+    font-size: 130pt;
     color: white;
     font-family: 'Teko', sans-serif;
     padding: 50px 30px 0px 30px;
@@ -80,7 +80,7 @@ a:hover{
     font-family: 'Montserrat', sans-serif;    
     color: white;
     padding: 0px 30px 0px 30px;
-    font-size: 12pt;
+    font-size: 15pt;
     border: white;
     display: grid;
     grid-area: pers;
@@ -139,8 +139,10 @@ a:hover{
 .showHiFi{
     text-align: center;
     max-width: 500px;
-    max-height: 300px;
+    max-height: 60vh;
+    width: 27vw;
     object-fit: cover;
+    object-position: 50% 0;
 }
 
 hr {
