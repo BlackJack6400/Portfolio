@@ -43,7 +43,7 @@ a:hover{
 
 
 .showcase{
-    margin: 30px;
+    margin: 3% 5% 0 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30vw;
@@ -64,7 +64,7 @@ a:hover{
 }
 
 .showcase2{
-    margin: 30px;
+    margin: 3% 5% 0 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30vw;
