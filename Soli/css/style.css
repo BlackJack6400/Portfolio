@@ -20,6 +20,7 @@ body {
 
 .nav:hover{
     color: white;
+    text-decoration-line: underline;
 }
 
 .navPage{
@@ -50,12 +51,6 @@ body {
     width: auto;
     height: 60vh;
     background-color: #49654E;
-   /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "word word word"
-    "pers pers pic"; */
 }
 
 .bigWord{
@@ -82,8 +77,6 @@ a:hover{
     padding: 0px 30px 0px 30px;
     font-size: 17pt;
     border: white;
-    display: grid;
-    grid-area: pers;
 }
 
 .showcase{
@@ -155,9 +148,27 @@ hr {
     width: 80vw;
 }
 
-#move {
+.move {
     display: flex;
     justify-content: flex-end;
+}
+
+.info{
+    display: grid;
+    margin: 0 5% 0 5%;
+    font-size: 12pt;
+    width: 100vw;
+    grid-area: txt;
+}
+
+.col{
+    max-width: 60vw;
+    padding: 0 10px 0 0;
+}
+
+.showOff{
+    color: white;
+    background-color: #49654E;
 }
 
 #footer{

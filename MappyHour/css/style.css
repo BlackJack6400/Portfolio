@@ -20,6 +20,7 @@ body {
 
 .nav:hover{
     color: white;
+    text-decoration-line: underline;
 }
 
 .navPage{
