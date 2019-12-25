@@ -71,15 +71,33 @@ strong {
 }
 
 .button{
-    object-fit: contain;
+    text-align: center;
+    font-weight: bolder;
+    padding: 7px 23px 7px 23px;
     max-width: 250px;
-    margin: 15px;
+    margin: 10px 0 10px 0;
     width: auto;
     height: auto;
     transition: all .2s ease-in-out;
+    border: #ffffff73 2px solid;
 }
 
 .button:hover { transform: scale(1.1); }
+
+#invision{
+    background-color: #FC3869;
+    color: white;
+}
+
+#pres{
+    background-color: #253528;
+    color: white;
+}
+
+#contact{
+    background-color: #00499C;
+    color: white;
+}
 
 a {
     color: #0A559D;

@@ -3,6 +3,11 @@ body {
     color: #2b2b2b;
 }
 
+strong {
+    font-weight: bolder;
+    color: #000000;
+}
+
 .navBar{
     display: flex;
     justify-content: flex-start;
@@ -49,24 +54,48 @@ body {
 }
 
 .header{
+    display: flex;
     width: auto;
     height: 60vh;
     background-color: #0A559D;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "word word word"
-    "pers pers pers";
+    align-content: center;
 }
 
 .bigWord{
-    font-size: 55pt;
+    font-size: 155pt;
     color: white;
     font-family: 'Teko', sans-serif;
     padding: 50px 30px 0px 30px;
-    display: grid;
-    grid-area: word;
+    margin: 0 170px 0 40px;
+}
+
+.button{
+    text-align: center;
+    font-weight: bolder;
+    padding: 7px 23px 7px 23px;
+    max-width: 250px;
+    margin: 10px 0 10px 0;
+    width: auto;
+    height: auto;
+    transition: all .2s ease-in-out;
+    border: #ffffff73 2px solid;
+}
+
+.button:hover { transform: scale(1.1); }
+
+#invision{
+    background-color: #FC3869;
+    color: white;
+}
+
+#pres{
+    background-color: #022B52;
+    color: white;
+}
+
+#contact{
+    background-color: #00499C;
+    color: white;
 }
 
 a {
@@ -81,19 +110,16 @@ a:hover{
 #personal{
     font-family: 'Montserrat', sans-serif;    
     color: white;
-    padding: 0px 30px 0px 30px;
-    font-size: 15pt;
-    border: white;
-    display: grid;
-    grid-area: pers;
+    margin: 0 0 0 80px;
+    font-size: 17pt;
 }
 
-
 .showcase{
-    margin: 10px 50px 10px 50px;
+    height: auto;
+    margin: 0 10vw 0 10vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30vw;
+    grid-template-rows: 40vw;
     grid-template-areas: 
     "pic txt txt";
     align-items: center;
@@ -110,27 +136,6 @@ a:hover{
     grid-area: txt;
 }
 
-.showcase2{
-    margin: 10px 50px 10px 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30vw;
-    grid-template-areas: 
-    "txt2 txt2 pic2";
-    align-items: center;
-}
-
-.gridImg2{
-    display: grid;
-    grid-area: pic2;
-}
-
-.gridText2{
-    padding-left: 20px;
-    display: grid;
-    grid-area: txt2;
-}
-
 .showHeading{
     color: #0A559D;
     font-weight: bold;
@@ -145,6 +150,23 @@ a:hover{
     width: 27vw;
     object-fit: cover;
     object-position: 50% 0;
+    margin: 0 50px 0 0;
+}
+
+#userPersona{
+    object-fit: contain;
+    width: 300px;
+    height: 80vh;
+}
+
+.showData{
+    text-align: center;
+    max-width: 90vw;
+    max-height: 75vh;
+    object-fit: cover;
+    object-position: 50% 0;
+    align-items: center;
+    margin: 3% 0 3% 0;
 }
 
 hr {
@@ -158,9 +180,52 @@ hr {
     width: 80vw;
 }
 
-#move {
+.move {
     display: flex;
     justify-content: flex-end;
+}
+
+.info{
+    display: grid;
+    margin: auto;
+    font-size: 12pt;
+    width: auto;
+    grid-area: txt;
+}
+
+.col{
+    max-width: 60vw;
+    padding: 0 0 0 0;
+}
+
+.dataCol{
+    display: flex;
+    flex-direction: row;
+    max-width: 60vw;
+    padding: 0 10px 0 0;
+    align-items: center;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 5% 5% 5% 5%;
+}
+
+.dataInfo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.fidelityImg{
+    object-fit: contain;
+    max-height: 80vh;
+    width: auto;
+    margin: 10px 0 10px 0;
+    border: rgb(145, 145, 145) 3px solid;
 }
 
 #footer{
