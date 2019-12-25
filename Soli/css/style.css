@@ -76,44 +76,10 @@ strong {
     margin: 15px;
     width: auto;
     height: auto;
+    transition: all .2s ease-in-out;
 }
 
-#visionBut{
-    display: flex;
-    max-width: 175px;
-    max-height: 160px;
-    width: auto;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    background-color: #FC3869;
-    color: white;
-    padding: 7px 0 7px 0;
-}
-#presBut{
-    display: flex;
-    max-width: 175px;
-    max-height: 160px;
-    width: auto;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    background-color: #C0CFB2;
-    color: #253528;
-    padding: 7px 0 7px 0;
-}
-#contactBut{
-    display: flex;
-    max-width: 175px;
-    max-height: 160px;
-    width: auto;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    background-color: #253528;
-    color: #E4E6D9;
-    padding: 7px 0 7px 0;
-}
+.button:hover { transform: scale(1.1); }
 
 a {
     color: #0A559D;
