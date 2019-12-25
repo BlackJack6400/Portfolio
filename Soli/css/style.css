@@ -1,5 +1,11 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
+}
+
+strong {
+    font-weight: bolder;
+    color: #000000;
 }
 
 .navBar{
@@ -48,18 +54,65 @@ body {
 }
 
 .header{
+    display: flex;
     width: auto;
     height: 60vh;
     background-color: #49654E;
+    align-content: center;
 }
 
 .bigWord{
     max-width: 1000px;
     max-height: 1000px;
     width: 50vw;
+    margin: 0 15vw 0 0;
     padding: 0px 30px 0px 30px;
-    display: grid;
-    grid-area: word;
+    align-content: center;
+}
+
+.button{
+    object-fit: contain;
+    max-width: 250px;
+    margin: 15px;
+    width: auto;
+    height: auto;
+}
+
+#visionBut{
+    display: flex;
+    max-width: 175px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    background-color: #FC3869;
+    color: white;
+    padding: 7px 0 7px 0;
+}
+#presBut{
+    display: flex;
+    max-width: 175px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    background-color: #C0CFB2;
+    color: #253528;
+    padding: 7px 0 7px 0;
+}
+#contactBut{
+    display: flex;
+    max-width: 175px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    background-color: #253528;
+    color: #E4E6D9;
+    padding: 7px 0 7px 0;
 }
 
 a {
@@ -80,7 +133,8 @@ a:hover{
 }
 
 .showcase{
-    margin: 0px 50px 0px 50px;
+    height: auto;
+    margin: 0 10vw 0 10vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40vw;
@@ -100,27 +154,6 @@ a:hover{
     grid-area: txt;
 }
 
-.showcase2{
-    margin: 10px 50px 10px 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40vw;
-    grid-template-areas: 
-    "txt2 txt2 pic2";
-    align-items: center;
-}
-
-.gridImg2{
-    display: grid;
-    grid-area: pic2;
-}
-
-.gridText2{
-    padding-left: 20px;
-    display: grid;
-    grid-area: txt2;
-}
-
 .showHeading{
     color: #49654E;
     font-weight: bold;
@@ -135,6 +168,23 @@ a:hover{
     width: 27vw;
     object-fit: cover;
     object-position: 50% 0;
+    margin: 0 50px 0 0;
+}
+
+#userPersona{
+    object-fit: contain;
+    width: 300px;
+    height: 80vh;
+}
+
+.showData{
+    text-align: center;
+    max-width: 90vw;
+    max-height: 75vh;
+    object-fit: cover;
+    object-position: 50% 0;
+    align-items: center;
+    margin: 3% 0 3% 0;
 }
 
 hr {
@@ -155,20 +205,45 @@ hr {
 
 .info{
     display: grid;
-    margin: 0 5% 0 5%;
+    margin: auto;
     font-size: 12pt;
-    width: 100vw;
+    width: auto;
     grid-area: txt;
 }
 
 .col{
     max-width: 60vw;
-    padding: 0 10px 0 0;
+    padding: 0 0 0 0;
 }
 
-.showOff{
-    color: white;
-    background-color: #49654E;
+.dataCol{
+    display: flex;
+    flex-direction: row;
+    max-width: 60vw;
+    padding: 0 10px 0 0;
+    align-items: center;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 5% 5% 5% 5%;
+}
+
+.dataInfo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.fidelityImg{
+    object-fit: contain;
+    max-height: 80vh;
+    width: auto;
+    margin: 10px 0 10px 0;
+    border: rgb(145, 145, 145) 3px solid;
 }
 
 #footer{

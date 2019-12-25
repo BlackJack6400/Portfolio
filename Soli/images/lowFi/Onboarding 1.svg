@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-Onboarding_1">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Onboarding_1" data-name="Onboarding 1" clip-path="url(#clip-Onboarding_1)">
+    <rect width="375" height="812" fill="#fff"/>
+    <text id="What_s_your_experience_level_" data-name="What’s your experience level?" transform="translate(25 99)" fill="#253528" font-size="26" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">What’s your experience level?</tspan></text>
+    <line id="Line_35" data-name="Line 35" y2="496" transform="translate(58.5 176.5)" fill="none" stroke="#253528" stroke-width="1"/>
+    <text id="Skip_" data-name="Skip &gt;" transform="translate(284 755)" fill="#253528" font-size="18" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">Skip &gt;</tspan></text>
+    <text id="No_Experience" data-name="No Experience" transform="translate(85 193)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">No Experience</tspan></text>
+    <text id="Beginner" transform="translate(85 312)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">Beginner</tspan></text>
+    <text id="Experienced" transform="translate(85 430)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">Experienced</tspan></text>
+    <text id="Skilled" transform="translate(85 549)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">Skilled</tspan></text>
+    <text id="Pro" transform="translate(85 667)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">Pro</tspan></text>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(50 246)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+      <circle cx="8.5" cy="8.5" r="8" fill="none"/>
+    </g>
+  </g>
+</svg>

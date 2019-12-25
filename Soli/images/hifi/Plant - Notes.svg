@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-Notifications_-_Incomplete">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Notifications_-_Incomplete" data-name="Notifications - Incomplete" clip-path="url(#clip-Notifications_-_Incomplete)">
+    <rect width="375" height="812" fill="#fff"/>
+    <text id="Notifications" transform="translate(18 72)" fill="#253528" font-size="36" font-family="Montserrat-Medium, Montserrat" font-weight="500" letter-spacing="0.01em"><tspan x="0" y="0">Notifications</tspan></text>
+    <text id="Complete" transform="translate(60 119)" fill="#253528" font-size="24" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Complete</tspan></text>
+    <text id="Incomplete" transform="translate(197 119)" fill="#253528" font-size="24" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Incomplete</tspan></text>
+    <line id="Line_45" data-name="Line 45" x2="118" transform="translate(197 128)" fill="none" stroke="#253528" stroke-width="2"/>
+    <g id="Group_49" data-name="Group 49" transform="translate(0 -1)">
+      <rect id="Rectangle_113" data-name="Rectangle 113" width="388" height="159" transform="translate(-6 153)" fill="#e4e6d9"/>
+      <text id="Water_Steve_" data-name="Water “Steve”" transform="translate(24 188)" fill="#253528" font-size="24" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Water “Steve”</tspan></text>
+      <text id="Your_Chinese_Evergreen_doesn_t_need_much_water._Just_evenly_wet_the_soil_today." data-name="Your Chinese Evergreen doesn’t need much water. Just evenly wet the soil today." transform="translate(24 200)" fill="#253528" font-size="18" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="16">Your </tspan><tspan y="16" font-family="Garamond-Italic, Garamond" font-style="italic">Chinese Evergreen</tspan><tspan y="16" xml:space="preserve"> doesn’t need much </tspan><tspan x="0" y="36">water. Just evenly wet the soil today.</tspan></text>
+      <g id="Rectangle_111" data-name="Rectangle 111" transform="translate(24 262)" fill="none" stroke="#49654e" stroke-width="2">
+        <rect width="158" height="29" stroke="none"/>
+        <rect x="1" y="1" width="156" height="27" fill="none"/>
+      </g>
+      <rect id="Rectangle_112" data-name="Rectangle 112" width="158" height="29" transform="translate(193 262)" fill="#49654e"/>
+      <text id="Remind_Me_Later" data-name="Remind Me Later" transform="translate(42 282)" fill="#49654e" font-size="16" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Remind Me Later</tspan></text>
+      <text id="Complete-2" data-name="Complete" transform="translate(272 282)" fill="#fff" font-size="16" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-33.396" y="0">Complete</tspan></text>
+    </g>
+    <g id="Group_50" data-name="Group 50" transform="translate(-11492 -7927)">
+      <rect id="Rectangle_114" data-name="Rectangle 114" width="388" height="176" transform="translate(11486 8262)" fill="#e4e6d9"/>
+      <text id="Water_George_" data-name="Water “George”" transform="translate(11516 8297)" fill="#253528" font-size="24" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Water “George”</tspan></text>
+      <text id="Make_sure_the_soil_is_totally_dry_before_watering_your_Aloe_vera_plant_Give_George_about_1_inch_of_water_today." data-name="Make sure the soil is totally dry before watering your Aloe vera plant! Give George about 1 inch of water today." transform="translate(11516 8309)" fill="#253528" font-size="18" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="16">Make sure the soil is totally dry before </tspan><tspan x="0" y="36">watering your </tspan><tspan y="36" font-family="Garamond-Italic, Garamond" font-style="italic">Aloe vera </tspan><tspan y="36">plant! Give George </tspan><tspan x="0" y="56">about 1 inch of water today.</tspan></text>
+      <g id="Rectangle_115" data-name="Rectangle 115" transform="translate(11516 8388)" fill="none" stroke="#49654e" stroke-width="2">
+        <rect width="158" height="29" stroke="none"/>
+        <rect x="1" y="1" width="156" height="27" fill="none"/>
+      </g>
+      <rect id="Rectangle_116" data-name="Rectangle 116" width="158" height="29" transform="translate(11685 8388)" fill="#49654e"/>
+      <text id="Remind_Me_Later-2" data-name="Remind Me Later" transform="translate(11534 8407)" fill="#49654e" font-size="16" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Remind Me Later</tspan></text>
+      <text id="Complete-3" data-name="Complete" transform="translate(11764 8407)" fill="#fff" font-size="16" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-33.396" y="0">Complete</tspan></text>
+    </g>
+    <text id="You_re_all_caught_up_" data-name="You’re all caught up!" transform="translate(115 551)" fill="#253528" font-size="18" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">You’re all caught up!</tspan></text>
+    <g id="Group_51" data-name="Group 51" transform="translate(-11492 -8109)">
+      <rect id="Rectangle_66" data-name="Rectangle 66" width="375" height="60" transform="translate(11492 8861)" fill="#fff"/>
+      <path id="Icon_awesome-search" data-name="Icon awesome-search" d="M26.628,23.343l-5.257-5.257a1.265,1.265,0,0,0-.9-.369h-.859a10.963,10.963,0,1,0-1.9,1.9v.859a1.265,1.265,0,0,0,.369.9l5.257,5.257a1.26,1.26,0,0,0,1.788,0l1.492-1.492A1.271,1.271,0,0,0,26.628,23.343ZM10.968,17.717a6.749,6.749,0,1,1,6.749-6.749A6.745,6.745,0,0,1,10.968,17.717Z" transform="translate(11590 8878)" fill="#646464"/>
+      <path id="Icon_open-person" data-name="Icon open-person" d="M13.5,0C9.788,0,6.75,3.78,6.75,8.438s3.038,8.438,6.75,8.438,6.75-3.78,6.75-8.437S17.213,0,13.5,0ZM6.446,16.875A6.757,6.757,0,0,0,0,23.625V27H27V23.625a6.733,6.733,0,0,0-6.446-6.75A9.479,9.479,0,0,1,13.5,20.25,9.479,9.479,0,0,1,6.446,16.875Z" transform="translate(11816 8878)" fill="#646464"/>
+      <path id="Icon_awesome-compass" data-name="Icon awesome-compass" d="M12.269,12.831a1.742,1.742,0,1,0,2.463,0,1.741,1.741,0,0,0-2.463,0ZM13.5.563A13.5,13.5,0,1,0,27,14.063,13.5,13.5,0,0,0,13.5.563Zm6.866,8.059-3.591,7.858a1.739,1.739,0,0,1-.858.858L8.06,20.929A1.076,1.076,0,0,1,6.634,19.5l3.592-7.858a1.739,1.739,0,0,1,.858-.858L18.941,7.2A1.076,1.076,0,0,1,20.366,8.622Z" transform="translate(11742 8877.438)" fill="#646464"/>
+      <path id="Icon_metro-notification" data-name="Icon metro-notification" d="M16.071,4.459a10.969,10.969,0,1,0,7.756,3.213A10.9,10.9,0,0,0,16.071,4.459Zm0-2.531a13.5,13.5,0,1,1-13.5,13.5,13.5,13.5,0,0,1,13.5-13.5ZM14.383,20.491h3.375v3.375H14.383Zm0-13.5h3.375V17.116H14.383Z" transform="translate(11513.43 8876.072)" fill="#49654e"/>
+      <path id="Icon_awesome-leaf" data-name="Icon awesome-leaf" d="M32,.568A.911.911,0,0,0,30.342.5,10.046,10.046,0,0,1,21.56,5.624H16.873A11.251,11.251,0,0,0,5.625,16.872a11.584,11.584,0,0,0,.088,1.2C9.451,15.4,14.846,13.123,22.5,13.123A.937.937,0,0,1,22.5,15C7.769,15,1.524,24.026.141,27.418a1.877,1.877,0,0,0,3.474,1.424,15.413,15.413,0,0,1,4.212-5.308,11.224,11.224,0,0,0,10.247,4.523c9.2-.668,15.672-8.917,15.672-19.017A21.3,21.3,0,0,0,32,.568Z" transform="translate(11662.996 8876.002)" fill="#646464"/>
+      <line id="Line_44" data-name="Line 44" x2="44" transform="translate(11507.5 8863.5)" fill="none" stroke="#49654e" stroke-width="3"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(41 777)" fill="#dfb5a7" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>

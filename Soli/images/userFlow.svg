@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2615" height="707" viewBox="0 0 2615 707">
+  <defs>
+    <clipPath id="clip-User_Flow">
+      <rect width="2615" height="707"/>
+    </clipPath>
+  </defs>
+  <g id="User_Flow" data-name="User Flow" clip-path="url(#clip-User_Flow)">
+    <rect width="2615" height="707" fill="#fff"/>
+    <g id="Rectangle_119" data-name="Rectangle 119" transform="translate(171.5 65.869) rotate(45)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="159" height="159" stroke="none"/>
+      <rect x="0.5" y="0.5" width="158" height="158" fill="none"/>
+    </g>
+    <text id="Download" transform="translate(172 187)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-62.1" y="0">Download</tspan></text>
+    <g id="Rectangle_120" data-name="Rectangle 120" transform="translate(410 133)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="205" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="204" height="88" fill="none"/>
+    </g>
+    <text id="Onboarding" transform="translate(513 186)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-73.598" y="0">Onboarding</tspan></text>
+    <g id="Rectangle_121" data-name="Rectangle 121" transform="translate(703 133)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="252" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="251" height="88" fill="none"/>
+    </g>
+    <text id="Questions_about_plant_preferences" data-name="Questions about plant preferences" transform="translate(703 150)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="26.594" y="24">Questions about </tspan><tspan x="21.836" y="48">plant preferences</tspan></text>
+    <g id="Rectangle_122" data-name="Rectangle 122" transform="translate(1056 133)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="205" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="204" height="88" fill="none"/>
+    </g>
+    <text id="Home:_My_Plants" data-name="Home: My Plants" transform="translate(1052 151)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="39.208" y="24">Home: My </tspan><tspan x="66.906" y="48">Plants</tspan></text>
+    <text id="Add_plant_by_photo" data-name="Add plant by photo" transform="translate(1818 144)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-93.487" y="0">Add plant by photo</tspan></text>
+    <text id="Add_plant_by_search" data-name="Add plant by search" transform="translate(1818 200)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-94.832" y="0">Add plant by search</tspan></text>
+    <g id="Rectangle_123" data-name="Rectangle 123" transform="translate(1993 132)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="197" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="196" height="88" fill="none"/>
+    </g>
+    <text id="Name_Plant" data-name="Name Plant" transform="translate(2091 187)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-72.716" y="0">Name Plant</tspan></text>
+    <line id="Line_46" data-name="Line 46" x2="305.334" transform="translate(1688.166 150.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_47" data-name="Line 47" x2="305.334" transform="translate(1688.166 206.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Menu:_explore_plants" data-name="Menu: explore plants" transform="translate(953 307)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-99.985" y="0">Menu: explore plants</tspan></text>
+    <line id="Line_50" data-name="Line 50" y2="92" transform="translate(1079.5 222.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectangle_124" data-name="Rectangle 124" transform="translate(587 280)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="227" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="226" height="88" fill="none"/>
+    </g>
+    <text id="Browse_plants_by_type_or_search" data-name="Browse plants by type or search" transform="translate(596 295)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="1.187" y="24">Browse plants by </tspan><tspan x="20.136" y="48">type or search</tspan></text>
+    <line id="Line_51" data-name="Line 51" x1="265" transform="translate(814.5 315.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectangle_126" data-name="Rectangle 126" transform="translate(304 274)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="234" height="95" stroke="none"/>
+      <rect x="0.5" y="0.5" width="233" height="94" fill="none"/>
+    </g>
+    <text id="View_plant_info_care_details" data-name="View plant info + care details" transform="translate(304 295)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="10.797" y="24">View plant info + </tspan><tspan x="47.393" y="48">care details</tspan></text>
+    <line id="Line_52" data-name="Line 52" x1="49" transform="translate(538.5 321.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_53" data-name="Line 53" x2="1522" transform="translate(496.5 435.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_54" data-name="Line 54" y1="214" transform="translate(2018.5 221.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Add_plant_to_site" data-name="Add plant to site" transform="translate(615 428)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-79.656" y="0">Add plant to site</tspan></text>
+    <line id="Line_55" data-name="Line 55" y2="66" transform="translate(496.5 369.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_56" data-name="Line 56" y2="291" transform="translate(1107.5 221.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_57" data-name="Line 57" x1="239" transform="translate(868.5 512.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectangle_127" data-name="Rectangle 127" transform="translate(639 466)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="230" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="229" height="88" fill="none"/>
+    </g>
+    <text id="Discover_tab" data-name="Discover tab" transform="translate(754 519)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-75.464" y="0">Discover tab</tspan></text>
+    <line id="Line_58" data-name="Line 58" x1="359" transform="translate(280.5 473.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_59" data-name="Line 59" x1="359" transform="translate(280.5 510.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_60" data-name="Line 60" x1="359" transform="translate(280.5 546.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Care_Forum" data-name="Care Forum" transform="translate(368 466)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-57.512" y="0">Care Forum</tspan></text>
+    <text id="Your_Feed" data-name="Your Feed" transform="translate(435 503)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-49.23" y="0">Your Feed</tspan></text>
+    <text id="Blog" transform="translate(515 540)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-21.981" y="0">Blog</tspan></text>
+    <g id="Rectangle_128" data-name="Rectangle 128" transform="translate(1399 510)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="255" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="254" height="88" fill="none"/>
+    </g>
+    <text id="View_notifications" data-name="View notifications" transform="translate(1527 563)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-109.438" y="0">View notifications</tspan></text>
+    <line id="Line_61" data-name="Line 61" y2="332" transform="translate(1138.5 222.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_62" data-name="Line 62" x2="261" transform="translate(1138.5 554.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Menu:_notifications" data-name="Menu: notifications" transform="translate(1269 544)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-92.482" y="0">Menu: notifications</tspan></text>
+    <text id="Menu:_discover" data-name="Menu: discover" transform="translate(985 503)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-72.511" y="0">Menu: discover</tspan></text>
+    <line id="Line_63" data-name="Line 63" x2="130" transform="translate(280.5 178.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_64" data-name="Line 64" x2="88" transform="translate(615.5 176.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_65" data-name="Line 65" x2="103" transform="translate(953.5 176.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectangle_129" data-name="Rectangle 129" transform="translate(1485 133)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="203" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="202" height="88" fill="none"/>
+    </g>
+    <text id="Site_Room" data-name="Site/Room" transform="translate(1587 186)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="-66.902" y="0">Site/Room</tspan></text>
+    <text id="Add_new_site" data-name="Add new site" transform="translate(1371 144)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-62.187" y="0">Add new site</tspan></text>
+    <text id="View_existing_site" data-name="View existing site" transform="translate(1371 200)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-82.899" y="0">View existing site</tspan></text>
+    <line id="Line_66" data-name="Line 66" x2="224.834" transform="translate(1261.166 150.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_67" data-name="Line 67" x2="224.834" transform="translate(1261.166 206.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(2292 132)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="245" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="244" height="88" fill="none"/>
+    </g>
+    <text id="Plant_Info_Notes_To-Dos_etc." data-name="Plant Info, Notes, To-Dos, etc." transform="translate(2303 151)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="2.458" y="24">Plant Info, Notes, </tspan><tspan x="36.698" y="48">To-Dos, etc.</tspan></text>
+    <line id="Line_68" data-name="Line 68" x2="102" transform="translate(2190.5 176.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_69" data-name="Line 69" y1="59" transform="translate(1654.5 74.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_70" data-name="Line 70" y1="58" transform="translate(2374.5 74.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_71" data-name="Line 71" x2="720" transform="translate(1654.5 74.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="View_my_plants" data-name="View my plants" transform="translate(1792 63)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-73.267" y="0">View my plants</tspan></text>
+    <g id="Rectangle_131" data-name="Rectangle 131" transform="translate(1481 274)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="275" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="274" height="88" fill="none"/>
+    </g>
+    <text id="My_profile_plant_habits_account_info" data-name="My profile, plant habits, account info" transform="translate(1497 290)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="20.686" y="24">My profile, plant </tspan><tspan x="1.857" y="48">habits, account info</tspan></text>
+    <line id="Line_72" data-name="Line 72" y2="96" transform="translate(1222.5 222.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_73" data-name="Line 73" x1="259" transform="translate(1222.5 318.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Menu:_profile" data-name="Menu: profile" transform="translate(1309 308)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-64.522" y="0">Menu: profile</tspan></text>
+    <text id="New_user" data-name="New user" transform="translate(345 171)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-45.342" y="0">New user</tspan></text>
+    <line id="Line_74" data-name="Line 74" x2="950" transform="translate(208.5 105.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Existing_user" data-name="Existing user" transform="translate(315 96)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-61.938" y="0">Existing user</tspan></text>
+    <line id="Line_75" data-name="Line 75" y2="28" transform="translate(1158.5 105.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_76" data-name="Line 76" x2="552" transform="translate(1654.5 530.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectangle_132" data-name="Rectangle 132" transform="translate(2206 494)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="269" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="268" height="88" fill="none"/>
+    </g>
+    <text id="incomplete_notifications" data-name="incomplete notifications" transform="translate(1694 521)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">incomplete notifications</tspan></text>
+    <text id="View_check_off_notifications" data-name="View + check off notifications" transform="translate(2227 514)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="11.589" y="24">View + check off </tspan><tspan x="38.376" y="48">notifications</tspan></text>
+    <line id="Line_77" data-name="Line 77" x2="244" transform="translate(1654.5 580.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectangle_133" data-name="Rectangle 133" transform="translate(1898 552)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="271" height="89" stroke="none"/>
+      <rect x="0.5" y="0.5" width="270" height="88" fill="none"/>
+    </g>
+    <text id="View_past_completed_notifications" data-name="View past completed notifications" transform="translate(1898 570)" fill="#253528" font-size="28" font-family="Garamond-Bold, Garamond" font-weight="700" letter-spacing="0.01em"><tspan x="8.448" y="24">View past completed </tspan><tspan x="58.876" y="48">notifications</tspan></text>
+    <text id="complete_notifications" data-name="complete notifications" transform="translate(1777 573)" fill="#253528" font-size="24" font-family="Garamond" letter-spacing="0.01em"><tspan x="-106.114" y="0">complete notifications</tspan></text>
+  </g>
+</svg>

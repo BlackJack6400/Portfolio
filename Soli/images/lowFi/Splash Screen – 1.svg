@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-Splash_Screen_1">
+      <rect width="375" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Splash_Screen_1" data-name="Splash Screen – 1" clip-path="url(#clip-Splash_Screen_1)">
+    <rect width="375" height="812" fill="#fff"/>
+    <text id="SOLi" transform="translate(134 183)" fill="#253528" font-size="48" font-family="Athena-Regular, Athena" letter-spacing="0.01em"><tspan x="0" y="0">SOLi</tspan></text>
+    <text id="For_happy_and_healthy_plants." data-name="For happy and healthy plants." transform="translate(71 240)" fill="#253528" font-size="20" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">For happy and healthy plants.</tspan></text>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(30 644)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="316" height="43" stroke="none"/>
+      <rect x="0.5" y="0.5" width="315" height="42" fill="none"/>
+    </g>
+    <text id="Get_Started" data-name="Get Started" transform="translate(147 671)" fill="#253528" font-size="18" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">Get Started</tspan></text>
+    <text id="Not_Now" data-name="Not Now" transform="translate(153 723)" fill="#646464" font-size="18" font-family="Garamond" letter-spacing="0.01em"><tspan x="0" y="0">Not Now</tspan></text>
+  </g>
+</svg>

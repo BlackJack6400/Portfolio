@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="415.5" height="60" viewBox="0 0 415.5 60">
+  <g id="Hover-btn" transform="translate(-520 -1017)">
+    <g id="Rectangle_43" data-name="Rectangle 43" transform="translate(520 1017)" fill="#8ba888" stroke="#c0cfb2" stroke-width="2">
+      <rect width="415.5" height="60" rx="5" stroke="none"/>
+      <rect x="1" y="1" width="413.5" height="58" rx="4" fill="none"/>
+    </g>
+    <text id="Contact_Me" data-name="Contact Me" transform="translate(663 1056)" fill="#fff" font-size="24" font-family="Roboto-Regular, Roboto" letter-spacing="0.03em"><tspan x="0" y="0">Contact Me</tspan></text>
+  </g>
+</svg>
