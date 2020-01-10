@@ -59,21 +59,21 @@ strong {
     width: auto;
     height: 60vh;
     background-color: #006EB3;
-    align-content: center;
+    align-items: center;
 }
 
 .bigWord{
-    font-size: 155pt;
-    color: white;
-    font-family: 'Teko', sans-serif;
-    padding: 50px 30px 0px 30px;
-    margin: 0 170px 0 40px;
+    display: flex;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 50vw;
+    margin: 0 10vw 0 5vw;
 }
 
 .button{
     text-align: center;
     font-weight: bolder;
-    padding: 7px 23px 7px 23px;
+    padding: 12px 28px 12px 28px;
     max-width: 250px;
     margin: 10px 0 10px 0;
     width: auto;

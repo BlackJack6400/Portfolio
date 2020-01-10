@@ -59,23 +59,22 @@ strong {
     width: auto;
     height: 60vh;
     background-color: #49654E;
-    align-content: center;
+    align-items: center;
 }
 
 .bigWord{
+    display: flex;
     max-width: 1000px;
     max-height: 1000px;
     width: 50vw;
-    margin: 10vh 15vw 0 5vw;
-    padding: 0px 30px 0px 30px;
-    align-content: center;
+    margin: 0 10vw 0 5vw;
 }
 
 .button{
     text-align: center;
     font-weight: bolder;
     font-size: medium;
-    padding: 15px 45px 15px 45px;
+    padding: 12px 28px 12px 28px;
     max-width: 250px;
     margin: 10px 0 10px 0;
     width: auto;
