@@ -16,6 +16,7 @@ strong {
     background-color: #00499C;
     height: 10vh;
     width: auto;
+    font-size: 14pt;
 }
 
 .nav{
@@ -65,7 +66,7 @@ strong {
     max-width: 1000px;
     max-height: 1000px;
     width: 50vw;
-    margin: 0 15vw 0 0;
+    margin: 10vh 15vw 0 5vw;
     padding: 0px 30px 0px 30px;
     align-content: center;
 }
@@ -73,7 +74,8 @@ strong {
 .button{
     text-align: center;
     font-weight: bolder;
-    padding: 7px 23px 7px 23px;
+    font-size: medium;
+    padding: 15px 45px 15px 45px;
     max-width: 250px;
     margin: 10px 0 10px 0;
     width: auto;

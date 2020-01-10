@@ -16,6 +16,7 @@ strong {
     background-color: #00499C;
     height: 10vh;
     width: auto;
+    font-size: 14pt;
 }
 
 .nav{
@@ -62,13 +63,11 @@ strong {
 }
 
 .bigWord{
-    font-size: 155pt;
-    color: white;
-    font-family: 'Teko', sans-serif;
+    max-width: 60vw;
+    height: auto;
     padding: 50px 30px 0px 30px;
     margin: 0 70px 0 0;
-    display: grid;
-    grid-area: word;
+    justify-content: center;
 }
 
 .button{
