@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #2b2b2b;
+    font-size: 16pt;
 }
 
 strong {
@@ -16,7 +17,7 @@ strong {
     background-color: #00499C;
     height: 10vh;
     width: auto;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 .nav{
@@ -87,16 +88,19 @@ strong {
 #invision{
     background-color: #FC3869;
     color: white;
+    font-size: 14pt;
 }
 
 #pres{
     background-color: rgb(226, 102, 0);
     color: white;
+    font-size: 14pt;
 }
 
 #contact{
     background-color: #00499C;
     color: white;
+    font-size: 14pt;
 }
 
 a {
@@ -190,7 +194,7 @@ hr {
 .info{
     display: grid;
     margin: auto;
-    font-size: 12pt;
+    font-size: 16pt;
     width: auto;
     grid-area: txt;
 }
@@ -249,4 +253,260 @@ hr {
 #footer a:hover{
     color: rgb(204, 204, 204);
     text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: #2b2b2b;
+        font-size: 14pt;
+    }
+    
+    strong {
+        font-weight: bolder;
+        color: #000000;
+    }
+    
+    .navBar{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #00499C;
+        height: 10vh;
+        width: auto;
+        font-size: 14pt;
+    }
+    
+    .nav{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        padding: 0 20px 0 20px;
+    }
+    
+    .nav:hover{
+        color: white;
+        text-decoration-line: underline;
+    }
+    
+    .navPage{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        padding: 0 20px 0 20px;
+        font-weight: bold;
+    }
+    
+    .navPage:hover{
+        color: white;
+    }
+    
+    #navLogo{
+        font-family: 'Teko', sans-serif;
+        font-size: 22pt;
+        color: white;
+        padding: 0 10px 10px 10px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    
+    #navLogo:hover{
+        text-decoration: none;
+    }
+    
+    .header{
+        display: flex;
+        width: auto;
+        height: 50vh;
+        background-color: #ff7c11;
+        align-items: center;
+    }
+    
+    .bigWord{
+        display: flex;
+        max-width: 1000px;
+        max-height: 1000px;
+        width: 50vw;
+        margin: 0 3vw 0 5vw;
+    }
+    
+    .button{
+        text-align: center;
+        font-weight: bolder;
+        font-size: medium;
+        padding: 12px 28px 12px 28px;
+        max-width: 250px;
+        margin: 10px 0 10px 0;
+        width: auto;
+        height: auto;
+        transition: all .2s ease-in-out;
+        border: #ffffff73 2px solid;
+    }
+    
+    
+    #invision{
+        background-color: #FC3869;
+        color: white;
+    }
+    
+    #pres{
+        background-color: rgb(226, 102, 0);
+        color: white;
+    }
+    
+    #contact{
+        background-color: #00499C;
+        color: white;
+    }
+    
+    a {
+        color: #0A559D;
+    }
+    
+    a:hover{
+        color: rgb(0, 52, 112);
+        text-decoration: none;
+    }
+    
+    #personal{
+        font-family: 'Montserrat', sans-serif;    
+        color: white;
+        padding: 0px 30px 0px 30px;
+        font-size: 17pt;
+        border: white;
+    }
+    
+    .showcase{
+        height: auto;
+        margin: 30px 0 0 0;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "pic"
+        "txt";
+    }
+    
+    .gridImg{
+        display: grid;
+        grid-area: pic;
+    }
+    
+    .gridText{
+        padding-left: 20px;
+        display: grid;
+        grid-area: txt;
+    }
+    
+    .showHeading{
+        color: #ff7c11;
+        font-weight: bold;
+        font-size: 28pt;
+        font-family: 'Teko', sans-serif;
+    }
+    
+    .showHiFi{
+        width: 90vw;
+        object-fit: cover;
+        object-position: 50% 0;
+    }
+    
+    #userPersona{
+        object-fit: contain;
+        width: 300px;
+        height: 80vh;
+    }
+    
+    .showData{
+        object-fit: cover;
+        object-position: 50% 0;
+        align-items: center;
+        margin: 3% 0 3% 0;
+    }
+    
+    hr {
+        display: flex;
+        justify-items: flex-start;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #ff7c11;
+        margin: 1em 0;
+        padding: 0;
+        width: 80vw;
+    }
+    
+    .move {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .info{
+        justify-items: center;
+    }
+    
+    .col{
+        max-width: 80vw;
+        padding: 0;
+    }
+    
+    .dataCol{
+        display: flex;
+        flex-direction: row;
+        max-width: 60vw;
+        padding: 0 10px 0 0;
+        align-items: center;
+    }
+    
+    .data{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    
+    .dataInfo{
+        display: flex;
+        width: 90vw;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .fidelityImg{
+        object-fit: contain;
+        height: auto;
+        width: auto;
+        margin: 10px 0 10px 0;
+        border: rgb(145, 145, 145) 3px solid;
+    }
+
+    
+    #footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        background-color: rgb(75, 75, 75);
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #footer a{
+        color: white;
+    }
+    
+    #footer a:hover{
+        color: rgb(204, 204, 204);
+        text-decoration: none;
+    }
+
+    .footerMobile{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
 }

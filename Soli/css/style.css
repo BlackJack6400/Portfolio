@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #2b2b2b;
+    font-size: 16pt;
 }
 
 strong {
@@ -16,7 +17,7 @@ strong {
     background-color: #00499C;
     height: 10vh;
     width: auto;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 .nav{
@@ -191,7 +192,7 @@ hr {
 .info{
     display: grid;
     margin: auto;
-    font-size: 12pt;
+    font-size: 16pt;
     width: auto;
     grid-area: txt;
 }
@@ -256,7 +257,7 @@ hr {
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
 
     body {
         font-family: 'Montserrat', sans-serif;
@@ -344,7 +345,6 @@ hr {
         border: #ffffff73 2px solid;
     }
     
-    .button:hover { transform: scale(1.1); }
     
     #invision{
         background-color: #FC3869;
@@ -380,13 +380,14 @@ hr {
     
     .showcase{
         height: auto;
-        margin: 30px 10vw 30px 10vw;
+        margin: 30px 0 0 0;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
+        justify-items: center;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
         grid-template-areas: 
-        "pic txt txt";
-        align-items: center;
+        "pic"
+        "txt";
     }
     
     .gridImg{
@@ -408,13 +409,9 @@ hr {
     }
     
     .showHiFi{
-        text-align: center;
-        max-width: 500px;
-        max-height: 75vh;
-        width: 27vw;
+        width: 90vw;
         object-fit: cover;
         object-position: 50% 0;
-        margin: 0 50px 0 0;
     }
     
     #userPersona{
@@ -424,9 +421,6 @@ hr {
     }
     
     .showData{
-        text-align: center;
-        max-width: 90vw;
-        max-height: 75vh;
         object-fit: cover;
         object-position: 50% 0;
         align-items: center;
@@ -450,16 +444,12 @@ hr {
     }
     
     .info{
-        display: grid;
-        margin: auto;
-        font-size: 12pt;
-        width: auto;
-        grid-area: txt;
+        justify-items: center;
     }
     
     .col{
-        max-width: 60vw;
-        padding: 0 0 0 0;
+        max-width: 80vw;
+        padding: 0;
     }
     
     .dataCol{
@@ -471,22 +461,22 @@ hr {
     }
     
     .data{
+        justify-content: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        margin: 5% 5% 5% 5%;
+        margin: 5%;
     }
     
     .dataInfo{
         display: flex;
+        width: 90vw;
         align-content: center;
         justify-content: center;
     }
     
     .fidelityImg{
         object-fit: contain;
-        max-height: 80vh;
+        height: auto;
         width: auto;
         margin: 10px 0 10px 0;
         border: rgb(145, 145, 145) 3px solid;
