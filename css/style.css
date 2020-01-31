@@ -11,7 +11,6 @@ body.fade-out {
 }
 
 .header{
-    /*margin-top: 2.5vh;*/
     width: auto;
     height: 95vh;
     background-color: #00499C;
@@ -151,4 +150,169 @@ hr {
 #footer a:hover{
     color: rgb(204, 204, 204);
     text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: #2b2b2b;
+        opacity: 1;
+        transition: 2s opacity;
+        font-size: 14pt;
+    }
+    
+    body.fade-out {
+        opacity: 0;
+        transition: none;
+    }
+    
+    .header{
+        width: auto;
+        height: 50vh;
+        background-color: #00499C;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bigWord{
+        font-size: 200pt;
+        color: white;
+        font-family: 'Teko', sans-serif;
+        padding: 0;
+        line-height: 110px;
+        margin: 80px 0 0 0;
+    }
+    
+    .button{
+        text-align: center;
+        font-weight: bolder;
+        padding: 7px 23px 7px 23px;
+        max-width: 250px;
+        margin: 10px 0 10px 0;
+        width: auto;
+        height: auto;
+        transition: all .2s ease-in-out;
+        border: #ffffff73 2px solid;
+    }
+    
+    .button:hover { transform: scale(1.1); }
+    
+    #contact{
+        background-color: #00499C;
+        color: white;
+    }
+    
+    a {
+        color: #00499C;
+    }
+    
+    a:hover{
+        color: rgb(0, 52, 112);
+    }
+    
+    #personal{
+        color: white;
+        border: white;
+    }
+    
+    
+    .showcase{
+        margin: 3% 5% 0 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 30vw;
+        grid-template-areas: 
+        "pic txt txt";
+        align-items: center;
+    }
+    
+    .gridImg{
+        display: grid;
+        grid-area: pic;
+    }
+    
+    .gridText{
+        padding-left: 20px;
+        display: grid;
+        grid-area: txt;
+    }
+    
+    .showcase2{
+        margin: 3% 5% 0 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 30vw;
+        grid-template-areas: 
+        "txt2 txt2 pic2";
+        align-items: center;
+    }
+    
+    .gridImg2{
+        display: grid;
+        grid-area: pic2;
+    }
+    
+    .gridText2{
+        padding-left: 20px;
+        display: grid;
+        grid-area: txt2;
+    }
+    
+    .showHeading{
+        color: #00499C;
+        font-weight: bold;
+        font-size: 28pt;
+        font-family: 'Teko', sans-serif;
+    }
+    
+    .showHiFi{
+        text-align: center;
+        max-width: 500px;
+        width: 30vw;
+    }
+    
+    hr {
+        display: flex;
+        justify-items: flex-start;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #00499C;
+        margin: 1em 0;
+        padding: 0;
+        width: 80vw;
+    }
+    
+    #move {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        background-color: rgb(75, 75, 75);
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #footer a{
+        color: white;
+    }
+    
+    #footer a:hover{
+        color: rgb(204, 204, 204);
+        text-decoration: none;
+    }
+
+    .footerMobile{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
 }
