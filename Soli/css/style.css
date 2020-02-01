@@ -272,13 +272,13 @@ hr {
     
     .navBar{
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
         background-color: #00499C;
-        height: 10vh;
+        height: 60px;
         width: auto;
-        font-size: 14pt;
+        font-size: 18pt;
     }
     
     .nav{
@@ -305,8 +305,8 @@ hr {
     
     #navLogo{
         font-family: 'Teko', sans-serif;
-        font-size: 22pt;
-        color: white;
+        font-size: 30pt;
+        color: rgb(221, 221, 221);
         padding: 0 10px 10px 10px;
         margin-left: 10px;
         font-weight: bold;
