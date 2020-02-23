@@ -4,24 +4,21 @@ body {
     opacity: 1;
     transition: 2s opacity;
     font-size: 16pt;
-}
-
-body.fade-out {
-    opacity: 0;
-    transition: none;
+    background-color: white;
 }
 
 .header{
     width: auto;
-    height: 95vh;
-    background-color: #00499C;
-    display: flex;
+    height: 100vh;
+    display: block;
+    background-color: whitesmoke;
     align-items: center;
+    border-bottom: 3px solid #1a1a1a;
 }
 
 .bigWord{
     font-size: 555pt;
-    color: white;
+    color: #1a1a1a;
     font-family: 'Teko', sans-serif;
     padding: 20px;
 }
@@ -29,20 +26,20 @@ body.fade-out {
 .button{
     text-align: center;
     font-weight: bolder;
-    padding: 7px 23px 7px 23px;
+    padding: 10px 26px 10px 26px;
     max-width: 250px;
     margin: 10px 0 10px 0;
     width: auto;
     height: auto;
     transition: all .2s ease-in-out;
-    border: #ffffff73 2px solid;
 }
 
 .button:hover { transform: scale(1.1); }
 
 #contact{
-    background-color: #00499C;
+    background-color: #353535;
     color: white;
+    text-decoration: none;
 }
 
 a {
@@ -53,13 +50,130 @@ a:hover{
     color: rgb(0, 52, 112);
 }
 
-#personal{
-    color: white;
-    padding: 20px 30px 20px 30px;
-    font-size: 14pt;
-    border: white;
+.personal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    color: #1a1a1a;
+    font-size: 16pt;
+    animation: info 2s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
 }
 
+@keyframes info{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.box{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.box span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+    animation-delay: 7s;
+}
+.box span:nth-child(2){
+    animation-delay: 6.8s;
+}
+.box span:nth-child(3){
+    animation-delay: 6.6s;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
+.container{
+    text-align: center;
+    width: 100%;
+}
+
+.container span{
+    color: #1a1a1a;
+    display: inline-block;
+}
+
+.text1{
+    animation: text 3s 1;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size: 555pt;
+    color: #1a1a1a;
+    font-family: 'Teko', sans-serif;
+}
+
+.text2{
+    animation: text 3s 1;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size: 555pt;
+    color: #1a1a1a;
+    font-family: 'Teko', sans-serif;
+    animation-delay: 0.2s;
+}
+
+.text3{
+    animation: text 3s 1;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size: 555pt;
+    color: #1a1a1a;
+    font-family: 'Teko', sans-serif;
+    animation-delay: 0.4s;
+}
+
+@keyframes text{
+    0%{
+        opacity: 0;
+        color: whitesmoke;
+        transform: translate(0, 200px);
+    }
+    40%{
+        opacity: 100%;
+    }
+    60%{
+        opacity: 100%;
+        transform: translate(0,0);
+    }
+    70%{
+        opacity: 100%;
+        transform: translate(0,0);
+    }
+    100%{
+        opacity: 100%;
+        transform: translate(-500PX,0);
+    }
+    
+}
 
 .showcase{
     margin: 3% 5% 0 5%;
@@ -121,7 +235,7 @@ hr {
     justify-items: flex-start;
     height: 1px;
     border: 0;
-    border-top: 2px solid #00499C;
+    border-top: 2px solid #1a1a1a;
     margin: 1em 0;
     padding: 0;
     width: 80vw;
@@ -155,7 +269,7 @@ hr {
 
 
 
-@media only screen and (max-width: 750px) {
+/* @media only screen and (max-width: 750px) {
 
     body {
         font-family: 'Montserrat', sans-serif;
@@ -316,4 +430,4 @@ hr {
         padding: 20px;
     }
 
-}
+} */
