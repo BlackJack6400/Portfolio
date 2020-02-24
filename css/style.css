@@ -67,7 +67,6 @@ a:hover{
     animation: info 2s 1;
     animation-fill-mode: forwards;
     animation-delay: 3.5s;
-    border: pink solid 5px;
 }
 
 @keyframes info{
@@ -124,7 +123,6 @@ a:hover{
     width: auto;
     height: auto;
     grid-area: logo;
-    border: pink solid 5px;
 }
 
 .container span{
