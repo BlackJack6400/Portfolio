@@ -7,10 +7,19 @@ body {
     background-color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header{
     width: auto;
     height: 100vh;
-    display: block;
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "logo info";
+    align-items: center;
     background-color: whitesmoke;
     align-items: center;
     border-bottom: 3px solid #1a1a1a;
@@ -51,15 +60,14 @@ a:hover{
 }
 
 .personal{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    grid-area: info;
     opacity: 0;
     color: #1a1a1a;
     font-size: 16pt;
     animation: info 2s 1;
     animation-fill-mode: forwards;
     animation-delay: 3.5s;
+    border: pink solid 5px;
 }
 
 @keyframes info{
@@ -73,7 +81,7 @@ a:hover{
 
 .box{
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -113,8 +121,10 @@ a:hover{
 
 
 .container{
-    text-align: center;
-    width: 100%;
+    width: auto;
+    height: auto;
+    grid-area: logo;
+    border: pink solid 5px;
 }
 
 .container span{
@@ -126,7 +136,7 @@ a:hover{
     animation: text 3s 1;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-size: 555pt;
+    font-size: 30vw;
     color: #1a1a1a;
     font-family: 'Teko', sans-serif;
 }
@@ -135,7 +145,7 @@ a:hover{
     animation: text 3s 1;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-size: 555pt;
+    font-size: 30vw;
     color: #1a1a1a;
     font-family: 'Teko', sans-serif;
     animation-delay: 0.2s;
@@ -145,7 +155,7 @@ a:hover{
     animation: text 3s 1;
     opacity: 0;
     animation-fill-mode: forwards;
-    font-size: 555pt;
+    font-size: 30vw;
     color: #1a1a1a;
     font-family: 'Teko', sans-serif;
     animation-delay: 0.4s;
@@ -155,22 +165,22 @@ a:hover{
     0%{
         opacity: 0;
         color: whitesmoke;
-        transform: translate(0, 200px);
+        transform: translate(300%, 200px);
     }
     40%{
         opacity: 100%;
     }
     60%{
         opacity: 100%;
-        transform: translate(0,0);
+        transform: translate(300%,0);
     }
     70%{
         opacity: 100%;
-        transform: translate(0,0);
+        transform: translate(300%,0);
     }
     100%{
         opacity: 100%;
-        transform: translate(-500PX,0);
+        transform: translate(0,0);
     }
     
 }

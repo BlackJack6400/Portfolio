@@ -14,38 +14,38 @@ strong {
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #00499C;
-    height: 10vh;
+    background-color: whitesmoke;
+    height: 50px;
     width: auto;
     font-size: 16pt;
 }
 
 .nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: #1a1a1a;
     padding: 0 20px 0 20px;
 }
 
 .nav:hover{
-    color: white;
+    color: #292929;
     text-decoration-line: underline;
 }
 
 .navPage{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: #000000;
     padding: 0 20px 0 20px;
     font-weight: bold;
 }
 
 .navPage:hover{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #navLogo{
     font-family: 'Teko', sans-serif;
     font-size: 22pt;
-    color: white;
+    color: #1a1a1a;
     padding: 0 10px 10px 10px;
     margin-left: 10px;
     font-weight: bold;
