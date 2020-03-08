@@ -432,7 +432,7 @@ hr {
     }
     
     .showcase{
-        margin: 3% 5% 0 5%;
+        margin: 3% 5% 3% 5%;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr;

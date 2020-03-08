@@ -279,9 +279,9 @@ hr {
         flex-wrap: wrap;
         align-items: center;
         background-color: whitesmoke;
-        height: 60px;
+        height: 40px;
         width: auto;
-        font-size: 18pt;
+        font-size: 12pt;
     }
     
     .nav{
@@ -298,7 +298,7 @@ hr {
     .navPage{
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #2b2b2b;
-        padding: 0 20px 0 20px;
+        padding: 0 10px 0 10px;
         font-weight: bold;
     }
     
@@ -308,7 +308,7 @@ hr {
     
     #navLogo{
         font-family: 'Teko', sans-serif;
-        font-size: 30pt;
+        font-size: 20pt;
         color: #202020;
         padding: 0 10px 10px 10px;
         padding-left: 10px;
@@ -320,28 +320,23 @@ hr {
     }
     
     .header{
-        display: flex;
         width: auto;
-        height: 50vh;
+        height: 30vh;
         background-color: #006eb3;
-        align-items: center;
+        align-content: center;
+        justify-content: center;
     }
     
     .bigWord{
-        display: flex;
         width: 80vw;
+        margin: auto;
     }
     
     .button{
         text-align: center;
         font-weight: bolder;
         font-size: medium;
-        padding: 12px 28px 12px 28px;
-        max-width: 250px;
-        margin: 10px 0 10px 0;
-        width: auto;
-        height: auto;
-        transition: all .2s ease-in-out;
+        width: 250px;
         border: #ffffff73 2px solid;
     }
     
@@ -383,7 +378,7 @@ hr {
     
     .showcase{
         height: auto;
-        margin: 30px 0 0 0;
+        margin: 30px 0 30px 0;
         display: grid;
         justify-content: center;
         grid-template-columns: auto;
@@ -391,6 +386,11 @@ hr {
         grid-template-areas: 
         "pic"
         "txt";
+    }
+    
+    .topImg{
+        width: 80vw !important;
+        display: block;
     }
     
     .gridImg{
@@ -408,17 +408,21 @@ hr {
         color: #006eb3;
         font-weight: bold;
         font-size: 28pt;
+        margin: 10px 0 10px 0;
         font-family: 'Teko', sans-serif;
     }
     
     .showHiFi{
         width: 80vw;
+        margin: auto;
     }
     
     #userPersona{
+        display: block;
         object-fit: contain;
         width: 300px;
         height: 80vh;
+        margin: auto;
     }
     
     .showData{
@@ -456,15 +460,14 @@ hr {
     .dataCol{
         display: flex;
         flex-direction: row;
-        max-width: 80vw;
+        max-width: 60vw;
         padding: 0 10px 0 0;
         align-items: center;
     }
     
     .data{
-        display: flex;
-        flex-direction: column;
         justify-items: center;
+        border: 3px solid red;
     }
     
     .dataInfo{
@@ -475,10 +478,12 @@ hr {
     }
     
     .fidelityImg{
+        display: block;
+        margin: auto;
         object-fit: contain;
         height: auto;
-        width: auto;
-        margin: 10px 0 10px 0;
+        width: auto !important;
+        max-width: 90vw !important;
         border: rgb(145, 145, 145) 3px solid;
     }
 

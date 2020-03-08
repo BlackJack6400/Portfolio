@@ -277,9 +277,9 @@ hr {
         flex-wrap: wrap;
         align-items: center;
         background-color: whitesmoke;
-        height: 60px;
+        height: 40px;
         width: auto;
-        font-size: 18pt;
+        font-size: 12pt;
     }
     
     .nav{
@@ -306,7 +306,7 @@ hr {
     
     #navLogo{
         font-family: 'Teko', sans-serif;
-        font-size: 30pt;
+        font-size: 20pt;
         color: #202020;
         padding: 0 10px 10px 10px;
         padding-left: 10px;
@@ -318,17 +318,16 @@ hr {
     }
     
     .header{
-        display: flex;
         width: auto;
-        height: 50vh;
+        height: 30vh;
         background-color: #ff7c11;
-        align-items: center;
+        align-content: center;
+        justify-content: center;
     }
     
     .bigWord{
-        justify-content: center;
-        display: flex;
         width: 80vw;
+        margin: auto;
     }
     
     .buttonList{
@@ -339,12 +338,7 @@ hr {
         text-align: center;
         font-weight: bolder;
         font-size: medium;
-        padding: 12px 28px 12px 28px;
-        max-width: 250px;
-        margin: 10px 0 10px 0;
-        width: auto;
-        height: auto;
-        transition: all .2s ease-in-out;
+        width: 250px;
         border: #ffffff73 2px solid;
     }
     
@@ -383,16 +377,21 @@ hr {
     
     .showcase{
         height: auto;
-        margin: 30px 0 0 0;
+        margin: 30px 0 30px 0;
         display: grid;
-        justify-items: center;
+        justify-content: center;
         grid-template-columns: auto;
         grid-template-rows: auto;
         grid-template-areas: 
         "pic"
         "txt";
     }
-    
+
+    .topImg{
+        width: 80vw !important;
+        display: block;
+    }
+
     .gridImg{
         display: grid;
         grid-area: pic;
@@ -408,17 +407,22 @@ hr {
         color: #ff7c11;
         font-weight: bold;
         font-size: 28pt;
+        margin: 10px 0 10px 0;
         font-family: 'Teko', sans-serif;
     }
     
     .showHiFi{
+        display: block !important;
         width: 80vw;
+        margin: auto !important;
     }
     
     #userPersona{
+        display: block;
         object-fit: contain;
         width: 300px;
         height: 80vh;
+        margin: auto;
     }
     
     .showData{
@@ -453,30 +457,14 @@ hr {
         padding: 0;
     }
     
-    .dataCol{
-        display: flex;
-        flex-direction: row;
-        max-width: 60vw;
-        padding: 0 10px 0 0;
-        align-items: center;
-    }
-    
     .data{
         justify-content: center;
-        display: flex;
-        flex-direction: column;
-        margin: 5%;
     }
     
-    
-    .dataInfo{
-        display: flex;
-        width: 90vw;
-        align-content: center;
-        justify-content: center;
-    }
     
     .fidelityImg{
+        display: block;
+        margin: auto;
         object-fit: contain;
         height: auto;
         width: auto;
