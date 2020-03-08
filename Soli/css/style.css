@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #2b2b2b;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 strong {
@@ -61,6 +61,12 @@ strong {
     height: 60vh;
     background-color: #49654E;
     align-items: center;
+}
+
+.buttonList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bigWord{
@@ -275,7 +281,7 @@ hr {
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        background-color: #00499C;
+        background-color: whitesmoke;
         height: 60px;
         width: auto;
         font-size: 18pt;
@@ -283,32 +289,32 @@ hr {
     
     .nav{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        color: white;
+        color: #2b2b2b;
         padding: 0 20px 0 20px;
     }
     
     .nav:hover{
-        color: white;
+        color: #2b2b2b;
         text-decoration-line: underline;
     }
     
     .navPage{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        color: white;
+        color: #2b2b2b;
         padding: 0 20px 0 20px;
         font-weight: bold;
     }
     
     .navPage:hover{
-        color: white;
+        color: #2b2b2b;
     }
     
     #navLogo{
         font-family: 'Teko', sans-serif;
         font-size: 30pt;
-        color: rgb(221, 221, 221);
+        color: #202020;
         padding: 0 10px 10px 10px;
-        margin-left: 10px;
+        padding-left: 10px;
         font-weight: bold;
     }
     
@@ -324,12 +330,14 @@ hr {
         align-items: center;
     }
     
+    .buttonList{
+        display: none
+    }
+
     .bigWord{
+        justify-content: center;
         display: flex;
-        max-width: 1000px;
-        max-height: 1000px;
-        width: 50vw;
-        margin: 0 3vw 0 5vw;
+        width: 80vw;
     }
     
     .button{
@@ -382,9 +390,9 @@ hr {
         height: auto;
         margin: 30px 0 0 0;
         display: grid;
-        justify-items: center;
+        justify-content: center;
         grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas: 
         "pic"
         "txt";
@@ -409,9 +417,7 @@ hr {
     }
     
     .showHiFi{
-        width: 90vw;
-        object-fit: cover;
-        object-position: 50% 0;
+        width: 80vw;
     }
     
     #userPersona{
@@ -461,10 +467,9 @@ hr {
     }
     
     .data{
-        justify-content: center;
         display: flex;
         flex-direction: column;
-        margin: 5%;
+        justify-items: center;
     }
     
     .dataInfo{
