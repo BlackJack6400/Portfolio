@@ -435,7 +435,7 @@ hr {
         margin: 3% 5% 3% 5%;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas: 
         "pic"
         "txt";
@@ -455,9 +455,10 @@ hr {
     }
     
     .showcase2{
+        margin: 3% 5% 3% 5%;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas: 
         "pic2"
         "txt2";
@@ -471,7 +472,6 @@ hr {
     }
     
     .gridText2{
-        padding: 0 20px 0 20px;
         display: grid;
         grid-area: txt2;
     }
