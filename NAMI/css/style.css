@@ -63,6 +63,12 @@ strong {
     align-items: center;
 }
 
+.buttonList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .bigWord{
     display: flex;
     max-width: 1000px;
