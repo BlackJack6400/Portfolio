@@ -11,17 +11,21 @@ html{
     scroll-behavior: smooth;
 }
 
+h2 {
+    display: inline !important;
+}
+
 .header{
     width: auto;
-    height: 80vh;
+    height: 60vh;
     display: grid;
     padding: 0 20px 0 0;
-    grid-template-rows: 100vh;
+    grid-template-rows: 60vh;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "logo info";
     align-items: center;
-    background-color: whitesmoke;
+    background-image: linear-gradient(to right, #00336d, #466991, #dee9f8, #ffffff, #ffffff);
     align-items: center;
     border-bottom: 3px solid #1a1a1a;
 }
@@ -47,7 +51,7 @@ html{
 .button:hover { transform: scale(1.1); }
 
 #contact{
-    background-color: #353535;
+    background-color: #00499C;
     color: white;
     text-decoration: none;
 }
@@ -67,7 +71,7 @@ a:hover{
     font-size: 16pt;
     animation: info 2s 1;
     animation-fill-mode: forwards;
-    animation-delay: 3.5s;
+    animation-delay: 2.5s;
 }
 
 @keyframes info{
@@ -127,53 +131,51 @@ a:hover{
 }
 
 .container span{
-    color: #1a1a1a;
+    color: #ffffff;
     display: inline-block;
 }
 
 .text1{
-    animation: text 3s 1;
+    animation: text 2s 1;
     opacity: 0;
     animation-fill-mode: forwards;
     font-size: 30vw;
-    color: #1a1a1a;
+    color: #ffffff;
     font-family: 'Teko', sans-serif;
 }
 
 .text2{
-    animation: text 3s 1;
+    animation: text 2s 1;
     opacity: 0;
     animation-fill-mode: forwards;
     font-size: 30vw;
-    color: #1a1a1a;
+    color: #ffffff;
     font-family: 'Teko', sans-serif;
-    animation-delay: 0.2s;
+    animation-delay: 0.33s;
 }
 
 .text3{
-    animation: text 3s 1;
+    animation: text 2s 1;
     opacity: 0;
     animation-fill-mode: forwards;
     font-size: 30vw;
-    color: #1a1a1a;
+    color: #ffffff;
     font-family: 'Teko', sans-serif;
-    animation-delay: 0.4s;
+    animation-delay: 0.66s;
 }
 
 @keyframes text{
     0%{
         opacity: 0;
-        color: whitesmoke;
-        transform: translate(300%, 200px);
-    }
-    40%{
-        opacity: 100%;
-    }
-    60%{
-        opacity: 100%;
+        color: #00336d;
         transform: translate(300%,0);
     }
+    69%{
+        opacity: 100%;
+        color:#00336d;
+    }
     70%{
+        color:#00336d;
         opacity: 100%;
         transform: translate(300%,0);
     }
@@ -231,6 +233,7 @@ a:hover{
     font-weight: bold;
     font-size: 28pt;
     font-family: 'Teko', sans-serif;
+    display: inline !important;
 }
 
 .showHiFi{
@@ -301,7 +304,7 @@ hr {
     
     .header{
         width: auto;
-        height: 100vh;
+        height: 110vh;
         display: grid;
         padding: 0 20px 0 20px;
         grid-template-rows: 30vh 60vh;
@@ -310,7 +313,7 @@ hr {
         "logo"
         "info";
         align-items: center;
-        background-color: whitesmoke;
+        background-image: linear-gradient(to bottom, #00336d, #8aa5c5, #ffffff, #ffffff, #ffffff);
         align-items: center;
         border-bottom: 3px solid #1a1a1a;
     }
@@ -319,7 +322,7 @@ hr {
         font-size: 555pt;
         color: #1a1a1a;
         font-family: 'Teko', sans-serif;
-        padding: 20px;
+        padding: 0 0 16px 0;
     }
     
     .button{
@@ -336,7 +339,7 @@ hr {
     .button:hover { transform: scale(1.1); }
     
     #contact{
-        background-color: #353535;
+        background-color: #00499C;
         color: white;
         text-decoration: none;
     }
@@ -354,6 +357,7 @@ hr {
         opacity: 0;
         color: #1a1a1a;
         font-size: 16pt;
+        margin-top: 15vh;
         animation: info 2s 1;
         animation-fill-mode: forwards;
         animation-delay: 2.5s;
@@ -376,7 +380,7 @@ hr {
     }
     
     .container span{
-        color: #1a1a1a;
+        color: #ffffff;
         display: inline-block;
     }
     
@@ -385,7 +389,7 @@ hr {
         opacity: 0;
         animation-fill-mode: forwards;
         font-size: 50vw;
-        color: #1a1a1a;
+        color: #ffffff;
         font-family: 'Teko', sans-serif;
     }
     
@@ -394,7 +398,7 @@ hr {
         opacity: 0;
         animation-fill-mode: forwards;
         font-size: 50vw;
-        color: #1a1a1a;
+        color: #ffffff;
         font-family: 'Teko', sans-serif;
         animation-delay: 0.2s;
     }
@@ -404,7 +408,7 @@ hr {
         opacity: 0;
         animation-fill-mode: forwards;
         font-size: 50vw;
-        color: #1a1a1a;
+        color: #ffffff;
         font-family: 'Teko', sans-serif;
         animation-delay: 0.4s;
     }
@@ -412,7 +416,7 @@ hr {
     @keyframes text{
         0%{
             opacity: 0;
-            color: whitesmoke;
+            color:#00336d;
             transform: translate(0, 200px);
         }
         40%{
@@ -446,6 +450,7 @@ hr {
     
     .gridImg{
         display: grid;
+        padding-bottom: 15px;
         justify-items: center;
         grid-area: pic;
     }

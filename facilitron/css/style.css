@@ -59,7 +59,7 @@ strong {
     display: flex;
     width: auto;
     height: 40vh;
-    background-image: linear-gradient(to top right, #006EB3,#208fd4);
+    background-image: linear-gradient(to top right, #0e61a5, #257dc5, #3B94DB, #e7f4ff);
     align-items: center;
     justify-content: center;
 }
@@ -97,7 +97,7 @@ strong {
 }
 
 #pres{
-    background-color: #022B52;
+    background-color: rgb(226, 102, 0);
     color: white;
     font-size: 14pt;
 }
@@ -120,8 +120,9 @@ a:hover{
 #personal{
     font-family: 'Montserrat', sans-serif;    
     color: white;
-    margin: 0 0 0 80px;
+    padding: 0px 30px 0px 30px;
     font-size: 17pt;
+    border: white;
 }
 
 .showcase{
@@ -147,7 +148,8 @@ a:hover{
 }
 
 .showHeading{
-    color: #006EB3;
+    display: inline;
+    color: #257dc5;
     font-weight: bold;
     font-size: 28pt;
     font-family: 'Teko', sans-serif;
@@ -184,7 +186,7 @@ hr {
     justify-items: flex-start;
     height: 1px;
     border: 0;
-    border-top: 2px solid #0A559D;
+    border-top: 2px solid #3B94DB;
     margin: 1em 0;
     padding: 0;
     width: 80vw;
@@ -220,7 +222,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     margin: 5% 5% 5% 5%;
 }
 
@@ -231,9 +233,11 @@ hr {
 }
 
 .fidelityImg{
+    display: flex;
     object-fit: contain;
-    max-height: 80vh;
+    max-height: auto;
     width: auto;
+    max-width: 70vw;
     margin: 10px 0 10px 0;
     border: rgb(145, 145, 145) 3px solid;
 }
@@ -258,9 +262,6 @@ hr {
     color: rgb(204, 204, 204);
     text-decoration: none;
 }
-
-
-
 
 
 
@@ -303,7 +304,7 @@ hr {
     .navPage{
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #2b2b2b;
-        padding: 0 10px 0 10px;
+        padding: 0 20px 0 20px;
         font-weight: bold;
     }
     
@@ -325,9 +326,9 @@ hr {
     }
     
     .header{
+        background-image: linear-gradient(to top right, #0a68b4,#9bc9f0);
         width: auto;
         height: 30vh;
-        background-color: #006eb3;
         align-content: center;
         justify-content: center;
     }
@@ -337,6 +338,10 @@ hr {
         margin: auto;
     }
     
+    .buttonList{
+        display: none
+    }
+
     .button{
         text-align: center;
         font-weight: bolder;
@@ -345,9 +350,6 @@ hr {
         border: #ffffff73 2px solid;
     }
     
-    .buttonList{
-        display: none;
-    }
     
     #invision{
         background-color: #FC3869;
@@ -355,7 +357,7 @@ hr {
     }
     
     #pres{
-        background-color: #022b52;
+        background-color: rgb(226, 102, 0);
         color: white;
     }
     
@@ -392,12 +394,12 @@ hr {
         "pic"
         "txt";
     }
-    
+
     .topImg{
         width: 80vw !important;
         display: block;
     }
-    
+
     .gridImg{
         display: grid;
         grid-area: pic;
@@ -410,7 +412,7 @@ hr {
     }
     
     .showHeading{
-        color: #006eb3;
+        color: #3B94DB;
         font-weight: bold;
         font-size: 28pt;
         margin: 10px 0 10px 0;
@@ -418,8 +420,9 @@ hr {
     }
     
     .showHiFi{
+        display: block !important;
         width: 80vw;
-        margin: auto;
+        margin: auto !important;
     }
     
     #userPersona{
@@ -442,7 +445,7 @@ hr {
         justify-items: flex-start;
         height: 1px;
         border: 0;
-        border-top: 2px solid #006EB3;
+        border-top: 2px solid #3B94DB;
         margin: 1em 0;
         padding: 0;
         width: 80vw;
@@ -462,32 +465,18 @@ hr {
         padding: 0;
     }
     
-    .dataCol{
-        display: flex;
-        flex-direction: row;
-        max-width: 60vw;
-        padding: 0 10px 0 0;
-        align-items: center;
-    }
-    
     .data{
-        justify-items: center;
-    }
-    
-    .dataInfo{
-        display: flex;
-        width: 90vw;
-        align-content: center;
         justify-content: center;
     }
+    
     
     .fidelityImg{
         display: block;
         margin: auto;
         object-fit: contain;
         height: auto;
-        width: auto !important;
-        max-width: 90vw !important;
+        width: auto;
+        margin: 10px 0 10px 0;
         border: rgb(145, 145, 145) 3px solid;
     }
 
