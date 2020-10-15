@@ -26,7 +26,6 @@ h2 {
     "logo info";
     align-items: center;
     background-image: linear-gradient(to right, #00336d, #466991, #dee9f8, #ffffff, #ffffff);
-    align-items: center;
     border-bottom: 3px solid #1a1a1a;
 }
 
@@ -285,11 +284,7 @@ hr {
 
 
 
-
-
-
-
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
 
     body {
         font-family: 'Montserrat', sans-serif;
@@ -305,26 +300,18 @@ hr {
     }
     
     .header{
-        width: auto;
-        height: 110vh;
-        display: grid;
+        height: auto;
+        margin: 0;
         padding: 0 20px 0 20px;
-        grid-template-rows: 30vh 60vh;
+        display: grid;
         grid-template-columns: auto;
+        grid-template-rows: auto;
         grid-template-areas: 
         "logo"
         "info";
         align-items: center;
         background-image: linear-gradient(to bottom, #00336d, #8aa5c5, #ffffff, #ffffff, #ffffff);
-        align-items: center;
         border-bottom: 3px solid #1a1a1a;
-    }
-    
-    .bigWord{
-        font-size: 555pt;
-        color: #1a1a1a;
-        font-family: 'Teko', sans-serif;
-        padding: 0 0 16px 0;
     }
     
     .button{
@@ -358,11 +345,11 @@ hr {
         grid-area: info;
         opacity: 0;
         color: #1a1a1a;
-        font-size: 16pt;
-        margin-top: 15vh;
+        font-size: 14pt;
         animation: info 2s 1;
         animation-fill-mode: forwards;
         animation-delay: 2.5s;
+        border: green solid 3px;
     }
     
     @keyframes info{
@@ -376,9 +363,10 @@ hr {
     
     
     .container{
-        width: auto;
         grid-area: logo;
-        padding-top: 80px;
+        margin-top: -50px;
+        margin-bottom: -120px;
+        border: red solid 3px;
     }
     
     .container span{
