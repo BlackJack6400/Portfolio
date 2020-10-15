@@ -68,7 +68,9 @@ a:hover{
     grid-area: info;
     opacity: 0;
     color: #1a1a1a;
-    font-size: 16pt;
+    font-size: 2vh;
+    max-height: 60vh;
+    height: auto;
     animation: info 2s 1;
     animation-fill-mode: forwards;
     animation-delay: 2.5s;
