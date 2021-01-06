@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #2b2b2b;
     font-size: 16pt;
+    background-color: white;
 }
 
 strong {
@@ -14,7 +15,7 @@ strong {
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: white;
     height: 50px;
     width: auto;
     font-size: 16pt;
@@ -77,18 +78,41 @@ strong {
 }
 
 .button{
+    position: relative;
+    margin: 0 auto;
+    padding: .8em 1.8em;
+    border: 0;
+    border-radius: 30px;
     text-align: center;
-    font-weight: bolder;
-    padding: 12px 28px 12px 28px;
-    max-width: 250px;
-    margin: 10px 0 10px 0;
-    width: auto;
-    height: auto;
-    transition: all .2s ease-in-out;
-    border: #ffffff73 2px solid;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #2b2b2b;
+    border: solid 1px #2b2b2b;
+    transform: all .2s ease-in-out;
+    border-radius: 50px;
 }
 
-.button:hover { transform: scale(1.1); }
+.button:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.personal{
+    font-size: 2vh;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #2b2b2b;
+}
+
+a:hover{
+    color: #585858;
+    text-decoration: none;
+}
 
 #invision{
     background-color: #FC3869;
@@ -248,18 +272,18 @@ hr {
     align-content: center;
     justify-items: center;
     height: auto;
-    padding: 20px;
-    background-color: rgb(75, 75, 75);
-    color: white;
+    padding: 16px;
+    background-color: rgb(206, 206, 206);
+    color: #2b2b2b;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #footer a{
-    color: white;
+    color: #2b2b2b;
 }
 
 #footer a:hover{
-    color: rgb(204, 204, 204);
+    color: #636363;
     text-decoration: none;
 }
 
@@ -491,13 +515,20 @@ hr {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
-    #footer a{
-        color: white;
+    #footer{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        justify-items: center;
+        height: auto;
+        padding: 16px;
+        background-color: rgb(206, 206, 206);
+        color: #2b2b2b;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
-    #footer a:hover{
-        color: rgb(204, 204, 204);
-        text-decoration: none;
+    #footer a{
+        color: #2b2b2b;
     }
 
     .footerMobile{
